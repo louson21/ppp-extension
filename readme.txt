@@ -10,12 +10,12 @@ Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Extends the Public Post Preview plugin by allowing users to customize the expiration time dynamically through the WordPress admin panel.y 6
+Extends the Public Post Preview plugin by allowing users to customize the expiration time dynamically through the WordPress admin panel.
 
 == Features ==
 
 * Set the expiration time for Public Post Preview links.
-* Customize the expiration time in **minutes** (from 1 minute to 3 days).
+* Customize the expiration time in **minutes** (from 1 minute to 30 days).
 * Secure input validation to prevent invalid values.
 * Fully integrated into the **WordPress Settings panel**.
 * Safe and lightweight implementation.
@@ -30,7 +30,7 @@ Extends the Public Post Preview plugin by allowing users to customize the expira
 == How to Use ==
 
 1. Navigate to Settings > PPP Expiration in your WordPress admin panel.
-2. Enter the expiration time in **minutes** (minimum: 1, maximum: 4320 minutes / 3 days).
+2. Enter the expiration time in **minutes** (minimum: 1, maximum: 43200 minutes / 30 days).
 3. Click Save Changes.
 4. Public Post Preview links will now expire based on your selected time.
 
@@ -38,7 +38,7 @@ Extends the Public Post Preview plugin by allowing users to customize the expira
 == Security ==
 
 – User input is **sanitized** and validated to prevent unauthorized values.
-– The input is limited between **1 minute and 3 days** to avoid extreme values.
+– The input is limited between **1 minute and 30 days** to avoid extreme values.
 – Escaped output prevents XSS attacks.
 
 

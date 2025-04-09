@@ -1,10 +1,10 @@
-=== Public Post Preview Expiration ===
+=== Public Post Preview Extended ===
 
-Contributors: winglouie
+Contributors: wing.louie
 Donate link: https://paypal.me/lsonugan
 Tags: public post preview, expiration  
 Requires at least: 5.0
-Tested up to: 6.7
+Tested up to: 6.7.2
 Requires PHP: 7.2
 Stable tag: 1.0.2
 License: GPLv2 or later
@@ -23,7 +23,7 @@ Extends the Public Post Preview plugin by allowing users to customize the expira
 == Installation ==
 
 1. Download the plugin.
-2. Upload the extracted `public-post-preview-expiration` folder to `/wp-content/plugins/`.
+2. Upload the extracted `public-post-preview-extended` folder to `/wp-content/plugins/`.
 3. Activate the plugin in WordPress Admin > Plugins.
 
 

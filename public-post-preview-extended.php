@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Public Post Preview Expiration
+ * Plugin Name: Public Post Preview Extended
  * Description: Extends the Public Post Preview plugin with custom functionality.
  * Version: 1.0.2
  * Author: Louie Sonugan
@@ -14,8 +14,8 @@ if ( ! function_exists( 'publpopr_add_admin_menu' ) ) {
 
     function publpopr_add_admin_menu() {
         add_options_page(
-            'PPP Expiration Settings',
-            'PPP Expiration',
+            'PPP Extended Settings',
+            'PPP Extended',
             'manage_options',
             'ppp-expiration',
             'publpopr_settings_page'

@@ -1,4 +1,4 @@
-=== PPP Extended ===
+=== PPP Extension ===
 
 Contributors: wing.louie
 Donate link: https://paypal.me/lsonugan
@@ -23,13 +23,13 @@ Extends the Public Post Preview plugin by allowing users to customize the expira
 == Installation ==
 
 1. Download the plugin.
-2. Upload the extracted `public-post-preview-extended` folder to `/wp-content/plugins/`.
+2. Upload the extracted `ppp-extension` folder to `/wp-content/plugins/`.
 3. Activate the plugin in WordPress Admin > Plugins.
 
 
 == How to Use ==
 
-1. Navigate to Settings > PPP Expiration in your WordPress admin panel.
+1. Navigate to Settings > PPP Extension in your WordPress admin panel.
 2. Enter the expiration time in **minutes** (minimum: 1, maximum: 43200 minutes / 30 days).
 3. Click Save Changes.
 4. Public Post Preview links will now expire based on your selected time.

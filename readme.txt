@@ -1,4 +1,4 @@
-=== Public Post Preview Extended ===
+=== PPP Extended ===
 
 Contributors: wing.louie
 Donate link: https://paypal.me/lsonugan

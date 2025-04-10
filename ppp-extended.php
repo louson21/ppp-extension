@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Public Post Preview Extended
+ * Plugin Name: PPP Extended
  * Description: Extends the Public Post Preview plugin with custom functionality.
  * Version: 1.0.2
  * Author: Louie Sonugan

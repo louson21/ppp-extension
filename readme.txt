@@ -1,7 +1,7 @@
 === PPP Extension ===
 
 Contributors: wing.louie
-Donate link: https://paypal.me/lsonugan
+Donate link: https://louiesonugan.com/donate/
 Tags: public post preview, expiration  
 Requires at least: 5.0
 Tested up to: 6.7
@@ -29,7 +29,7 @@ Extends the Public Post Preview plugin by allowing users to customize the expira
 
 == How to Use ==
 
-1. Navigate to Settings > PPP Extension in your WordPress admin panel.
+1. Navigate to **Settings > PPP Extension** in your WordPress admin panel.
 2. Enter the expiration time in **minutes** (minimum: 1, maximum: 43200 minutes / 30 days).
 3. Click Save Changes.
 4. Public Post Preview links will now expire based on your selected time.
@@ -45,7 +45,7 @@ Extends the Public Post Preview plugin by allowing users to customize the expira
 == Frequently Asked Questions ==
 
 = What is the allowed expiration time range? =
-You can set the expiration time between **1 minute (minimum) and 43200 minutes (30 days maximum).
+You can set the expiration time between **1 minute (minimum) and 43200 minutes (30 days maximum)**.
 
 = Does this work without Public Post Preview installed? =
 No, this plugin extends the [Public Post Preview](https://wordpress.org/plugins/public-post-preview/) plugin, so it must be installed and activated first.
@@ -63,7 +63,7 @@ No, this plugin extends the [Public Post Preview](https://wordpress.org/plugins/
 * Set expiration time in minutes instead of seconds.
 * Capped expiration limit to **3 days (4320 minutes)**.
 
-=1.0.0=
+= 1.0.0 =
 * Initial implementation of dynamic expiration settings.
 
 == Upgrade Notice ==

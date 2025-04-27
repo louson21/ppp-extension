@@ -2,7 +2,7 @@
 /**
  * Plugin Name: PPP Extension
  * Description: Extends the Public Post Preview plugin with custom functionality.
- * Version: 1.0.2
+ * Version: 1.0.3
  * Author: Louie Sonugan
  * Author URI: https://louiesonugan.com/
  * License: GPLv2 or later
@@ -71,6 +71,17 @@ if ( ! function_exists( 'pppex_settings_init' ) ) {
     }
 
 }
+
+// Settings link in the Plugins folder
+
+add_filter('plugin_action_links_' . plugin_basename(__FILE__), function($actions) {
+    $settings_link = '<a href="options-general.php?page=pppex-expiration">Settings</a>';
+
+    // Insert Settings at the start
+    array_unshift($actions, $settings_link);
+
+    return $actions;
+});
 
 add_action( 'admin_init', 'pppex_settings_init' );
 
